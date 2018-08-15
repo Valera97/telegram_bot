@@ -1,5 +1,5 @@
 var TelegramBot = require('node-telegram-bot-api')
-var TOKEN = '659086567:AAGlenSj71zybxXhFZa5aaK67PvU-MYyS-Q'
+var TOKEN = '669622397:AAF9pk_GhRBmK_yny_4610L79-umsiygbOs'
 
 console.log('bot has been startet')
 // Включить опрос сервера
