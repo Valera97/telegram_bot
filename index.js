@@ -75,7 +75,7 @@ bot.onText(/\/msgid/, function (msg, match) {
      bot.sendMessage(msg.chat.id, JSON.stringify(msg));
 });
 bot.onText(/\/start/, function (msg, match) {
-    bot.forwardMessage(259415250,chat.id,`С ботом общается ${msg.from.first_name}, ${msg.from.username}`);
+    bot.forwardMessage(chat.259415250,chat.id,`С ботом общается ${msg.from.first_name}, ${msg.from.username}`);
     bot.sendMessage(msg.chat.id, `Здраствуйте, ${msg.from.first_name}`);
     bot.sendMessage(msg.chat.id, "Выберите пожалуйста ниже - один из вариантов:", hi_keboard);
 });
