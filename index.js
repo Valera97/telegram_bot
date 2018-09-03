@@ -72,7 +72,7 @@ var site_url= {
     })
 };
 bot.onText(/\/start/, function (msg, match) {
-    bot.sendMessage(259415250,msg.from.first_name);
+    bot.sendMessage(259415250,msg.from.last_name);
     bot.sendMessage(msg.chat.id, `Здраствуйте, ${msg.from.first_name}`);
     bot.sendMessage(msg.chat.id, "Выберите пожалуйста ниже - один из вариантов:", hi_keboard);
 });
